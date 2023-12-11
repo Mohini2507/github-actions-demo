@@ -1,0 +1,7 @@
+name: 'Consonant vowel ratio'
+author: 'Mohini Pathak'
+description: 'Custom GH action with TypeScript'
+
+runs:
+  using: 'node21'
+  main: 'dist/index.js'
