@@ -1,5 +1,5 @@
 name: 'Consonant vowel ratio'
-author: 'Mohini Pathak'
+author: 'Chris Trzesniewski'
 description: 'Custom GH action with TypeScript'
 
 inputs:
@@ -7,6 +7,9 @@ inputs:
     description: 'Name to greet'
     required: false
     default: 'Demoooo'
+  ghToken:
+    description: 'Github access token'
+    required: false
 
 runs:
   using: 'node16'
